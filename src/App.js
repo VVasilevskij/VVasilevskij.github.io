@@ -23,6 +23,7 @@ function App() {
     const [deck, setDeck] = useState(cartt.slice(0,51));                         // Массив карт
 
 
+    
     function random(n) {
         return Math.floor(Math.random() * Math.floor(n));
     }
